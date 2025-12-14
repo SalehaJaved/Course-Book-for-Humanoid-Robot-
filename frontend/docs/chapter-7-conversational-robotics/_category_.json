@@ -1,0 +1,8 @@
+{
+  "label": "Chapter 7: Conversational Robotics",
+  "position": 8,
+  "link": {
+    "type": "generated-index",
+    "description": "Whisper, LLM integration, multimodal I/O."
+  }
+}

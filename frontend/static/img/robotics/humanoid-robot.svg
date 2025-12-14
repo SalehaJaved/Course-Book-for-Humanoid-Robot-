@@ -1,0 +1,30 @@
+<svg width="200" height="300" viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Robot Body -->
+  <rect x="75" y="100" width="50" height="80" fill="#4a90e2" stroke="#333" stroke-width="2" rx="5"/>
+  
+  <!-- Robot Head -->
+  <circle cx="100" cy="70" r="25" fill="#f0f0f0" stroke="#333" stroke-width="2"/>
+  
+  <!-- Robot Eyes -->
+  <circle cx="90" cy="65" r="4" fill="#333"/>
+  <circle cx="110" cy="65" r="4" fill="#333"/>
+  
+  <!-- Robot Mouth -->
+  <path d="M 85 80 Q 100 85 115 80" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <!-- Robot Arms -->
+  <line x1="70" y1="120" x2="40" y2="140" stroke="#333" stroke-width="6" stroke-linecap="round"/>
+  <line x1="130" y1="120" x2="160" y2="140" stroke="#333" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Robot Legs -->
+  <line x1="90" y1="180" x2="90" y2="240" stroke="#333" stroke-width="8" stroke-linecap="round"/>
+  <line x1="110" y1="180" x2="110" y2="240" stroke="#333" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Feet -->
+  <rect x="80" y="240" width="15" height="8" fill="#333" rx="2"/>
+  <rect x="105" y="240" width="15" height="8" fill="#333" rx="2"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="100" cy="130" r="8" fill="#e74c3c"/>
+  <circle cx="100" cy="150" r="6" fill="#f1c40f"/>
+</svg>

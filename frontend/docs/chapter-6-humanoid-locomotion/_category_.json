@@ -1,0 +1,8 @@
+{
+  "label": "Chapter 6: Humanoid Locomotion",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "Walking algorithms, balance control, gait planning."
+  }
+}

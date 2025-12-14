@@ -1,0 +1,145 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+    min-height: 500px;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.roboticsCover {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.roboticsBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.roboticElements {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.element1, .element2, .element3, .element4, .element5 {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.3;
+  animation: float 6s ease-in-out infinite;
+}
+
+.element1 {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(45deg, #ff6b6b, #ffa500);
+  top: 10%;
+  left: 10%;
+  animation-delay: 0s;
+}
+
+.element2 {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(45deg, #4ecdc4, #44a08d);
+  top: 20%;
+  right: 15%;
+  animation-delay: 1s;
+}
+
+.element3 {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(45deg, #a8edea, #fed6e3);
+  bottom: 15%;
+  left: 15%;
+  animation-delay: 2s;
+}
+
+.element4 {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(45deg, #ff9a9e, #fecfef);
+  bottom: 25%;
+  right: 20%;
+  animation-delay: 3s;
+}
+
+.element5 {
+  width: 90px;
+  height: 90px;
+  background: linear-gradient(45deg, #667eea, #764ba2);
+  top: 30%;
+  left: 40%;
+  animation-delay: 4s;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-20px) rotate(10deg);
+  }
+}
+
+.coverContent {
+  position: relative;
+  z-index: 3;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.coverContent h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.coverContent .hero__subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+@media screen and (max-width: 768px) {
+  .coverContent h1 {
+    font-size: 2rem;
+  }
+
+  .coverContent .hero__subtitle {
+    font-size: 1rem;
+  }
+}

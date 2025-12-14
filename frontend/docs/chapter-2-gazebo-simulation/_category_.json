@@ -1,0 +1,8 @@
+{
+  "label": "Chapter 2: Gazebo Simulation",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Physics engines, sensor modeling, environment creation in Gazebo."
+  }
+}

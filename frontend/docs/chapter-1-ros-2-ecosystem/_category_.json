@@ -1,0 +1,8 @@
+{
+  "label": "Chapter 1: ROS 2 Ecosystem",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Core navigation, message passing, node architecture in ROS 2."
+  }
+}
